@@ -8,8 +8,8 @@ Download the contents and perform mvn install.
 java -classpath jsontocef-V1.1.jar org.hortonworks.com.jsontocef.CefWriter 
 
 ## To call from other class
-- CefWriter cf = new CefWriter(Path json to cef property file,Path cef header file)
-- String CEFDATA = cf.jsonToCef(String <jsondata>,String <sensorType>);	
+- CefWriter cf = new CefWriter(Path json to cef property file)
+- String CEFDATA = cf.jsonToCef(String jsondata);	
   
 ## Parameters required are 
 - argument1: path to json to cef properties file.
